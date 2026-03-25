@@ -69,7 +69,7 @@ export default function Hero() {
       <div className="hero-sticky">
         <video 
           ref={videoRef}
-          src="/hero-animation-white-optimized.mp4"
+          src={`${import.meta.env.BASE_URL}hero-animation-white-optimized.mp4`}
           muted
           playsInline
           preload="auto"
